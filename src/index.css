@@ -1,0 +1,102 @@
+*{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:rgb(22, 236, 61)
+ 
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-img-weather:hover {
+  filter: drop-shadow(0 0 3em #000000aa);
+   
+}
+
+
+@keyframes img-img-weather {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.body-scattered-clouds {
+  background-image: url(../src/assets/nube.jpeg);
+  background-size: cover;
+}
+.body-change {
+  background-image: url(../src/assets/nube.jpeg);
+  
+  background-size: cover;
+  
+}
+
+
+.App {
+  padding: 10px 20px 10px 0px;
+  border-radius: 15px;
+  background-color: rgba(175, 7, 231, 0.993);
+  
+}
+
+.card {display: flex;}
+
+.h3-location {margin-bottom: -8px;}
+.p-temperature {margin-top: -6px;}
+
+.p-value {
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.icon {
+  width: 30px;
+  padding-right: 5px;
+}
+
+.icon-wind {
+  width: 20px;
+  padding-right: 5px;
+}
+
+.img-img-weather {width: 180px;}
+
+@media (max-width: 390px) {
+  .img-img-weather {
+    width: 150px;
+  }
+}
+
+@media (max-width: 365px) {
+  .img-img-weather {
+    width: 135px;
+  }
+}
+
+
+.loader {
+  width: 54px;
+  height: 54px;
+  position: relative;
+  border-radius: 4px;
+ 
+  }
+
+
+  
+
